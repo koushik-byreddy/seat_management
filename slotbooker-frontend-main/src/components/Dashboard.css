@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table {
+  margin: 10%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 350px; /* adjust the width to your liking */
+  cursor: pointer; /* make the card clickable */
+  justify-self: center;
+  transition: transform 1s ease-in-out;
+}
+.table:hover {
+  transform: scale(1.1);
+}
+.table-1 {
+  margin: 0px;
+  width: 100%;
+  height: 80%; /* take up 80% of the card's height */
+  background-color: peachpuff;
+}
+
+.table-1-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.table-2 {
+  margin: 0px;
+  padding: 2%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
